@@ -1,0 +1,12 @@
+* {background: rgba(248, 220, 60, 0.582); margin: 0em;}
+
+ul {
+    list-style: none;
+    background: red;
+    padding: 0.2em;
+    width: 20em;
+    text-align: left;
+    margin-left: 5em;
+    margin-top: 5em;
+    font-size: 1.5em;
+}
