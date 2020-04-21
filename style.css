@@ -10,3 +10,6 @@ ul {
     margin-top: 5em;
     font-size: 1.5em;
 }
+li {
+    padding: 1em;
+}
