@@ -13,9 +13,8 @@
       <div id="introdaction">
           <h1>My Home work</h1>
       </div>
-<table>
-    <thead>
-        <table class="table">
+<form action="post">
+        <table class="contact">
             <thead>
                 <tr>
                     <th>Ім'я</th>
@@ -51,41 +50,44 @@
                 </tr>
             </tbody>
         </table>
-    </thead>
-</table>
+    
 
-<form class="form">
+<div class="nameForm just">
 <div class="enter">
     <input type="text" placeholder="you Name">
 </div>
 <div class="enter">
     <input type="text" placeholder="you Family Name">
 </div>
-</form>
+</div>
 
-<form class="form2">
+<div class="statForm">
 <p>
     Яка у вас стать?
 </p>
-<div class="#">
-    <div>
-        <input type="radio" name="stat" value="men">M
-    </div>
-    <div>
-        <input type="radio" name="stat" value="woman">Ж
-    </div>
-</div>
-</form>
 
-<form id="just">
-<div>
+    <div>
+        <label class="radio">
+        <input type="radio" name="stat" value="men" checked>
+        Ч</label>
+    </div>
+    <div>
+        <label class="radio">
+        <input type="radio" name="stat" value="wommen">
+        Ж</label>
+    </div>
+
+</div>
+
+
+<div class="just">
     <p>
          <textarea name="coments" id="#" cols="30" rows="6" placeholder="Напишіть своє питання"></textarea>
     </p>
 </div>
-</form>
 
-<form id="just" action="post">
+
+<div class="just">
 <label for="city">Choice city</label>
    <select id="city"size="1">    
     <option value="example" selected disabled>Choice city</option>    
@@ -93,33 +95,30 @@
     <option value="Kyiv">Kyiv</option>
     <option value="Odesa">Odesa</option>
 </select>
-</form>
+</div>
 
-<form class="form3">
-    <p>
-        Виберіть мову?
-    </p>
-    <div class="#">
-        <div>
-            <input type="checkbox" id="ukr">
-            <label for="ukr"> Українська </label>
-        </div>
-        <div>
-            <input type="checkbox" id="rus">
-            <label for="rus"> Русский </label>
-        </div>
-        <div>
-            <input type="checkbox" id="eng">
-            <label for="eng"> English </label>
-        </div>
-        <br>
-        <div>
-            <button type="submit" name="language" value="eng">Отправить
-        </div>
+    <div class="langForm just">
+        <p>
+            Виберіть мову?
+        </p>
+    
+            <div>
+                <input type="checkbox" id="ukr">
+                <label for="ukr"> Українська </label>
+            </div>
+            <div>
+                <input type="checkbox" id="rus">
+                <label for="rus"> Русский </label>
+            </div>
+            <div>
+                <input type="checkbox" id="eng">
+                <label for="eng"> English </label>
+            </div>
+            <p>
+                <input type="button" name="language" value="Відправити">
+            </p>    
+
     </div>
-    </form>
-
-
 
 </body>
 </html>

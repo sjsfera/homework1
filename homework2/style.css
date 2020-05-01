@@ -1,28 +1,31 @@
 * {font-family: Comic Sans MS;}
+
 #introdaction {
     text-align: center;
     font-weight: bold;
-    color: rgb(14, 59, 12);
+    color: rgba(61, 201, 54, 0.568);
     margin-bottom: 50px;
     padding-top: 20px;
 }
-.table {
-    background-color: rgba(61, 230, 61, 0.616);
-    border: solid 2px blue;
+.contact {
+    background-color: rgba(76, 241, 76, 0.616);
+    border: solid 2px rgb(73, 73, 228);
     width: 50em;
     height: 15em;
-    font-family: Comic Sans MS;
     text-align: center;
     margin-bottom: 70px;
 }
 td, th {
-    border: solid 2px blue;
+    border: solid 2px rgb(97, 97, 223);
+}
+.contact tr:hover {
+    background-color: rgb(72, 74, 223);
+
 }
 .enter {
     margin-bottom: 20px;
-    color: brown;
 }
-.form {
+.nameForm {
     background-color: rgba(181, 145, 214, 0.15);
     width: 180px;
     height: 70px;
@@ -30,25 +33,23 @@ td, th {
     padding: 40px;
     margin-bottom: 20px;
 }
-.form2 {
+.statForm {
     background-color: rgba(154, 236, 165, 0.3);
     width: 160px;
     height: 110px;
     margin-left: 20px;
     padding: 20px;
-    
     margin-bottom: 20px;
 }
-.form3{
+.langForm{
     background-color: rgba(236, 235, 136, 0.3);
     width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    padding: 30px;
-    margin-bottom: 20px;
+    height: 170px;    
+    padding: 20px;
+    
 }
 
-#just {
+.just {
     margin: 20px;
 }
 .enter input {
