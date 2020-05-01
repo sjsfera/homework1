@@ -7,10 +7,18 @@
     color: green;
 }
 p img {
-    margin-top: 200px;
+    position: relative;
     float: right;
 }
 .text {
-    padding-top: 390px;
-    text-align: end;
+    position: relative;
+    top: 180px;
+    float: right;
+}
+
+.add {
+    display: flex;
+}
+a:hover {
+    color: blue;
 }
