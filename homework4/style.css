@@ -1,24 +1,21 @@
 * {text-decoration: none;}
 html, body {
-    
-    margin: 0em; 
-    max-width: 1440px;
-    min-width: 100vw;
-    max-height: 782px;
-    min-height: 100vh;
+    margin: 0em;
+    padding: 0em;       
+    height: 100%;
+    width: 100%;    
     background: url(Rectangle_3.png) no-repeat;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
+    background-size: cover;
 }
 .app {
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);  
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
 }
-.mainPanel {
-    max-width: 1440px;
-    min-width: 100vw;
-    height: 100px;    
-    
-    
+.mainPanel {       
     display: flex;
     text-align: center;
 }
@@ -110,13 +107,7 @@ html, body {
     text-transform: uppercase;
 }
 
-.content {
-    max-width: 1440px;
-    min-width: 100vw;
-    height: 682px; 
-    
-    
-    
+.content {       
     display: block;
     text-align: center;
 }
@@ -160,6 +151,7 @@ html, body {
     width: 160px;
     height: 50px;
     border: none;
+
 }
 .btnSignText { 
     width: 55px;
