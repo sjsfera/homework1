@@ -1,5 +1,5 @@
 * {text-decoration: none;}
-body {
+html, body {
     
     margin: 0em; 
     max-width: 1440px;
@@ -10,11 +10,14 @@ body {
     font-family: 'Lato', sans-serif;
     color: #ffffff;
 }
+.app {
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
 .mainPanel {
     max-width: 1440px;
     min-width: 100vw;
     height: 100px;    
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    
     
     display: flex;
     text-align: center;
@@ -112,7 +115,7 @@ body {
     min-width: 100vw;
     height: 682px; 
     
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    
     
     display: block;
     text-align: center;
@@ -169,4 +172,7 @@ body {
     
     text-transform: uppercase;
     padding: 15px 50px;
+
+    border: none;
+    text-align: center;
 }
