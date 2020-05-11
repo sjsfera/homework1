@@ -101,7 +101,7 @@ html, body {
     border-radius: 6px;
     background: transparent;
 
-    
+    display: flex
 }
 .btnLoginText {
     color: #ffffff;
@@ -155,13 +155,15 @@ main {
 }
 .btnSign {      
     margin-top: 39px;
-    margin-left: 60px; 
-    background: #FFFFFF;
-    border-radius: 6px; 
+    margin: 0 auto;
     
+
+    background: #FFFFFF;
+    border-radius: 6px;    
      
     border: none;
-
+    display: flex;
+    
 }
 .btnSignText { 
     
