@@ -38,7 +38,7 @@ html, body {
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     
 }
 .main_Menu {
@@ -56,7 +56,7 @@ html, body {
 
     text-transform: uppercase;
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: normal;
     font-style: normal;
 }
@@ -80,7 +80,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     line-height: 17px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 
     text-transform: uppercase;
 }
@@ -91,9 +91,7 @@ html, body {
     width: 13px;
     height: 8px;
 }
-.btnLogin {
-    width: 100px;
-    height: 40px;
+.btnLogin { 
 
     margin-top: 50px;
     margin-left: 29px;
@@ -103,17 +101,21 @@ html, body {
     border-radius: 6px;
     background: transparent;
 
+    
+}
+.btnLoginText {
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
 
     text-transform: uppercase;
+    padding: 11px 28px 12px 29px;
 }
 
-.content {       
+main {       
     display: block;
     text-align: center;
 }
@@ -128,7 +130,7 @@ html, body {
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -145,36 +147,33 @@ html, body {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     
 
     text-align: center;
     
 }
 .btnSign {      
-    margin-top: 29px;
-    margin-left: 50px; 
+    margin-top: 39px;
+    margin-left: 60px; 
     background: #FFFFFF;
     border-radius: 6px; 
     
-    width: 160px;
-    height: 50px;
+     
     border: none;
 
 }
 .btnSignText { 
-    width: 55px;
-    height: 17px;
+    
       
     font-weight: 600;
     font-size: 14px;    
     color: #ED4C5C;    
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-style: normal;
     
     text-transform: uppercase;
-    padding: 15px 50px;
 
-    
+    padding: 17px 53px 16px 52px;
     text-align: center;
 }
