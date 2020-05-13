@@ -102,12 +102,16 @@ html, body {
 }
 
 .content {
-    width: 578px;
     margin: 0 auto;
-}
-.main-content {
     font-family: 'Lato';
     font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.main-content {
+    
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;    
@@ -121,29 +125,29 @@ html, body {
 
 }
 .text-content {
-    font-family: 'Lato';
-    font-style: normal;
+    width: 33%;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
-    margin-top: 36px;
+    margin: 36px auto;
     text-align: center;
+
 }
 
 .btnSignUp {
     background: #FFFFFF;
     border-radius: 6px;
     width: 150px;
-    height: 50px;
-    font-family: 'Lato';
-    font-style: normal;
+    padding: 15px;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
     color: #ED4C5C;
+    font-family: 'Lato';
+    font-style: normal;
     
-    margin: 39px auto;
+    margin: 0px auto;
     cursor: pointer;
 }
