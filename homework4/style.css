@@ -14,7 +14,7 @@ html, body {
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    width: 100%;
+    
     padding-right: 168px;
     padding-left: 166px;
 }
@@ -102,15 +102,10 @@ html, body {
 }
 
 .content {
-    width: 33%;
+    width: 578px;
     margin: 0 auto;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
 }
 .main-content {
-    width: inherit;
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
@@ -119,7 +114,7 @@ html, body {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 177px;
+    margin-top: 177px;
     text-align: center;
 
    
@@ -133,19 +128,13 @@ html, body {
     line-height: 36px;
     color: #FFFFFF;
     margin-top: 36px;
-    width: auto;
-    text-align: center;   
-    margin-bottom:39px;
-
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
+    text-align: center;
 }
+
 .btnSignUp {
     background: #FFFFFF;
     border-radius: 6px;
-    width: 33%;
+    width: 150px;
     height: 50px;
     font-family: 'Lato';
     font-style: normal;
@@ -155,11 +144,6 @@ html, body {
     text-transform: uppercase;
     color: #ED4C5C;
     
-    margin: 0 auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-   
-
-    
+    margin: 39px auto;
+    cursor: pointer;
 }
