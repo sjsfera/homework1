@@ -15,10 +15,9 @@ html, body {
     justify-content: space-around;
     height: 100px;
     
-    padding-right: 168px;
-    padding-left: 166px;
 }
 .BrandIcon {
+    margin-left: 167px;
     width: 24px;
     height: 17px;
 }
@@ -54,6 +53,8 @@ html, body {
 .btn-group {
     display: flex;
     align-content: center;
+
+    margin-right: 168px;
 }
 .LangIcon {
     width: 32px;
