@@ -343,6 +343,11 @@ body {
     margin-left: 2%;
     cursor: pointer;
 }
+.lineFooter {
+    height: 2px;
+    background: #9C69E2;
+    opacity: 0.2;
+}
 /*container 5*/
 .container5 {
     min-height: 761px;
