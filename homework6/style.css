@@ -68,6 +68,7 @@ body {
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    outline: none;
 }
 /* CONT 1 part 2*/
 .header-content {
@@ -114,6 +115,7 @@ body {
 
     color: #FFFFFF;
     cursor: pointer;
+    outline: none;
 }
 .header-content_item2 {
     width: 50%;
@@ -393,6 +395,7 @@ body {
     border-radius: 50px;
     margin-left: 11%;
     cursor: pointer;
+    outline: none;
 }
 .container-body-btn_item2 {
     width: 210px;
@@ -402,6 +405,7 @@ body {
     border-radius: 50px;
     margin-left: 2%;
     cursor: pointer;
+    outline: none;
 }
 /*container 5 footer*/
 
