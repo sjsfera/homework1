@@ -10,7 +10,7 @@ body {
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 /*CONT 1*/
-.container1 {
+header {
     width: 80%;
     min-height: 754px;
     /*border: 1px solid red;*/
@@ -40,7 +40,7 @@ body {
     list-style: none;
 }
 .panel-text {
-    font-family: Avenir;
+    font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -68,6 +68,7 @@ body {
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    border: none;
     outline: none;
 }
 /* CONT 1 part 2*/
@@ -116,6 +117,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     outline: none;
+    border: none;
 }
 .header-content_item2 {
     width: 50%;
@@ -129,38 +131,41 @@ body {
 }
 
 /*container 2*/
-.container2 {
+.main {
     width: 70%;
     min-height: 560px;
     /*border: 1px solid red;*/
     margin: 99px auto; 
     display: flex;
     flex-direction: row;
+
+    background: rgba(240, 99, 184, 0.15);
+border-radius: 50px;
 }
 /*container 2 part1*/
-.container2-baner {
+.main-baner {
     width: 50%;
 }
-.container2-baner_config {    
+.main-baner_config {    
     width: 87%;
     margin: 25px 0;
 }
-.container2-context {
+.main-context {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-.container2-context_item1 {
+.main-context_item1 {
     width: 83%;
     margin-top: 125px;
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     color: #212353;
 }
-.container2-context_item2 {
+.main-context_item2 {
     width: 83%;
     margin-top: 40px;
     font-family: 'Avenir';
@@ -171,12 +176,12 @@ body {
     color: #4B5D68;
 }
 /*container 2 part2*/
-.container2-context {
+.main-context {
     width: 50%;
 }
 
 /*container 3*/
-.container3 {
+menu {
     width: 70%;
     min-height: 1002px;
     /*border: 1px solid red;*/
@@ -188,16 +193,16 @@ body {
 }
 
 /*container 3 part 1*/
-.container3-head {
+.menu-head {
     grid-column: 1/5;
     grid-row: 1/2;
 }
 
-.container3-head_item1{
+.menu-head_item1{
     width: 36%;
     margin: 0 auto;
 
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -206,7 +211,7 @@ body {
 
     color: #212353;
 }
-.container3-head_item2 {
+.menu-head_item2 {
     width: 51%;
     margin: 50px auto;
 
@@ -219,9 +224,9 @@ body {
     color: #4B5D68;
 }
 /*container 3 part 2*/
-.container3-list-head {
+.menu-list-head {
     margin: 0;
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -229,7 +234,7 @@ body {
 
     color: #212353;
 }
-.container3-list-body {
+.menu-list-body {
     margin: 20px 0;
     width: 80%;
     font-family: 'Avenir';
@@ -239,7 +244,7 @@ body {
     line-height: 160%;
     color: #4B5D68;
 }
-.container3-list-footer {
+.menu-list-footer {
     width: 127px;
     font-family: 'Avenir';
     font-style: normal;
@@ -258,7 +263,7 @@ body {
 }
 
 /*container 4*/
-.container4 {
+.testemonia {
     width: 70%;
     min-height: 709px;
     /*border: 1px solid red;*/
@@ -267,13 +272,13 @@ body {
     background: #9C69E2;
     border-radius: 50px;
 }
-.container4-list {
+.testemonia-list {
     width: 85%;
     margin: 0 auto;
 }
-.container4-head {
+.testemonia-head {
     padding-top: 109px;
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -281,7 +286,7 @@ body {
 
     color: #FFFFFF;
 }
-.container4-body {
+.testemonia-body {
     margin-top: 88px;
     background: #FFFFFF;
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
@@ -289,7 +294,7 @@ body {
     height: 330px;
     
 }
-.container4-body_inside {
+.testemonia-body_inside {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -300,11 +305,11 @@ body {
     width: 132px;
     height: 90px;
 }
-.container4-body-list {
+.testemonia-body-list {
     width: 60%;
     margin: 80px 0;
 }
-.container4-body-list_item1 {
+.testemonia-body-list_item1 {
     margin-left: 44px;
     font-family: 'Avenir';
     font-style: normal;
@@ -314,9 +319,9 @@ body {
     letter-spacing: 0.005em;
     color: #212353;
 }
-.container4-body-list_item2 {
+.testemonia-body-list_item2 {
     margin-left: 44px;
-    font-family: Avenir;
+    font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -324,7 +329,7 @@ body {
     letter-spacing: 0.01em;
     color: #9C69E2;
 }
-.container4-body-list_item3 {
+.testemonia-body-list_item3 {
     margin-left: 44px;
     font-family: 'Avenir';
     font-style: normal;
@@ -351,7 +356,7 @@ body {
     opacity: 0.2;
 }
 /*container 5*/
-.container5 {
+footer {
     min-height: 761px;
     /*border: 1px solid red;*/
     width: 70%;
@@ -360,7 +365,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.container5-body {
+.footer-body {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -371,7 +376,7 @@ body {
     width: 52%;
 }
 .container-body-title_item1 {
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -396,6 +401,7 @@ body {
     margin-left: 11%;
     cursor: pointer;
     outline: none;
+    border: none;
 }
 .container-body-btn_item2 {
     width: 210px;
@@ -406,6 +412,7 @@ body {
     margin-left: 2%;
     cursor: pointer;
     outline: none;
+    border: none;
 }
 /*container 5 footer*/
 
@@ -525,6 +532,8 @@ body {
 .block-messege {
     width: 50px;
     height: 50px;
-    margin: 254px 0 0 auto;
     cursor: pointer;
+    position: fixed;
+    top: 85%;
+    left: 80%;
 }
