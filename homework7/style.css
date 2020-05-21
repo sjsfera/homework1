@@ -1,0 +1,360 @@
+* {text-decoration: none;}
+body {
+    
+    margin: 0; 
+    padding: 0;
+    max-width: auto;
+    /*min-width: 100hw;*/
+    max-height: auto;
+    /*min-height: 100vh;*/
+    min-height: 900px;
+}
+/*special propertis*/
+.btn {
+    width: 120px;
+    height: 40px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.clickIcon{
+    cursor: pointer;
+}
+.generaly {
+    display: flex;
+    flex-direction: row;
+}
+.download_item {
+    position: relative;
+    left: -50%;
+    top: -15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    /* Black */
+
+    color: #000000;
+}
+/*corectiv for .status-total_block */
+.block-corect {
+    margin: 0 0 0 auto;
+}
+/*sidebar*/
+.leftSideBar {
+    width: 132px;
+    height: 852px;
+
+    background: #000000;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 24px 32px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.mainPanel_Link {
+    margin: 32px auto;
+}
+/*content*/
+main {
+    width: 43%;  
+    margin-left: 5%;  
+    display: flex;
+    flex-direction: column;
+}
+/*section 1*/
+.content-header {
+    margin-top: 55px;
+    height: 160px;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+.content-header_title {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+}
+.content-header_item1 {
+    margin-left: 30px;
+}
+.content-header_present {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+.menIcon {
+    position: relative;
+    left: 50%;
+    top: -170px;
+}
+/*section 2*/
+.course-status_item1 {
+    width: 81%;
+    margin-top: 16px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+.course-status_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*section 3*/
+.content-menu {
+    margin: 35px 0 10px 0;
+    height: 80px;
+}
+/*section programs*/
+.course-block {
+    margin-top: 16px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+.curse-time {
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.course-time_item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.curse-fire {
+    width: 6.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.course-Level {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.cover-Icon {
+    width: 10%;
+    height: 64px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curse-Text {
+    width: 151px; 
+    display: flex;
+    flex-direction: column;
+}
+.name-Curse {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+.autor_item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;    
+}
+
+
+/*right content*/
+.status {
+    width: 31%;
+    margin-left: 5%;
+
+    display: flex;
+    flex-direction: column;
+}
+/*section 1*/
+.status-personal {
+    margin-top: 55px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+input[type="search"]{  
+    height: 40px;  
+    width: 75%;
+    background-color: #F5F5F7;
+    background-image: url('img/search.png');
+    /*background-size: 15px;*/
+    background-position: left 6% center;
+    background-repeat: no-repeat;
+    padding: 5px 20%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #bebebe;
+}
+input[type="search"]::placeholder{
+    color: #6b6b6b;
+}
+.status-personal_item {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*section 2*/
+.status-total {   
+    margin-top: 23px; 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.status-total_block {
+    width: 46%;
+    height: 96px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.status-total_number {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #000000;
+}
+.status-total_text {
+    width: 40%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+/*section 3*/
+.status-title {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+.status-title_option {
+    background: transparent;
+    border: none;
+}
+.status-title_links {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.3;
+}
+.status-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-statistics {
+    background: #F5F5F7;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    width: 88px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+.status-title_links + .status-title_links {
+    margin-left: 24px;
+}
+.status-title_links:hover { 
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000; 
+    opacity: 1;   
+}
+/*section 4*/
+.status-grafic {
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*section 5*/
+.status-premium {
+    margin-top: 39px;
+    min-height: 193px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.status-premim_text {
+    width: 50%;
+}
+.status-premim_text1 {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    
+}
+.status-premim_text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
