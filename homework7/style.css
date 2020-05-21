@@ -190,13 +190,15 @@ main {
     font-size: 16px;
     color: #000000;
     cursor: pointer;
+    margin: 0;
 }
 .autor_item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    color: #000000;    
+    color: #000000;  
+    margin: 0;  
 }
 
 
@@ -283,6 +285,12 @@ input[type="search"]::placeholder{
 .status-title_option {
     background: transparent;
     border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
 }
 .status-title_links {
     font-family: 'Baloo Bhai';
