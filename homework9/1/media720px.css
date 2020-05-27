@@ -81,23 +81,14 @@
     }
 
     .analis {
-        width: 320px;
-        height: 220px;
         position: absolute;
-        padding: 0;
-        margin: 0;
-        top: 125%;
-        
+        top: 100%;
+        left: 10%;
     }
     .match {
-        width: 250px;
-        height: 150px;
         position: absolute;
-        padding: 0;
-        margin: 0;
-        top: 135%;
-        left: 25%;
-      
+        top: 80%;
+        left: 35%;
     }
 }
 

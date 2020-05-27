@@ -74,64 +74,61 @@ html, body {
 .block-blog-do {
     min-height: 592px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: url(img/SAMPLE04.png);
     background-position: left;
     background-repeat: no-repeat;
 }
 
 /* Blog Does part 1*/
-.block-blog-do_football {
-    width: 45%;
-}
-/*
-.analis {
-    width: 320px;
-    height: 220px;
-    margin-top: 25%;
-    margin-left: 18%;
+
+.arsenal_chealsea { 
+    position: relative; 
+    top: 150px;   
     z-index: 2;
-    position: relative;
+    cursor: pointer;
 }
-.match {
-    width: 250px;
-    height: 150px;
+.watch_match {
+    position: relative;    
     z-index: 1;
-    position: relative;
-    padding: 0;
-    margin-left: -20%;
-    margin-top: 20%;
-    
-    
-}
-*/
-.analis {
-    width: 320px;
-    height: 220px;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 85%;
-    left: 7%;
-    z-index: 2;
-    
+    cursor: pointer;
 }
 .match {
     width: 250px;
     height: 150px;
     position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 100%;
-    left: 15%;
-    z-index: 1;
-  
+    
+}
+.analis {
+    width: 320px;
+    height: 220px;
+    position: relative;
+    
 }
 
+/*
+.arsenal_chealsea {
+    width: 45%;
+    height: 37%;
+    position: absolute;    
+    z-index: 2;
+    top: 78%;
+    left: 6%;
+    cursor: pointer;
+}
+.watch_match {
+    width: 45%;
+    height: 37%; 
+    position: absolute;    
+    z-index: 1;
+    top: 100%;
+    left: 19%;
+    cursor: pointer;
+}
+*/
 /* Blog Does part 2*/
 .block-blog-do_cover {
-    margin-top: 133px;
-    margin-left: 30%;
+    margin: 133px 55%;
     width: 45%;
     display: flex;
     flex-direction: column;
