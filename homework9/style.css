@@ -84,27 +84,7 @@ html, body {
 .block-blog-do_football {
     width: 45%;
 }
-/*
-.analis {
-    width: 320px;
-    height: 220px;
-    margin-top: 25%;
-    margin-left: 18%;
-    z-index: 2;
-    position: relative;
-}
-.match {
-    width: 250px;
-    height: 150px;
-    z-index: 1;
-    position: relative;
-    padding: 0;
-    margin-left: -20%;
-    margin-top: 20%;
-    
-    
-}
-*/
+
 .analis {
     width: 320px;
     height: 220px;

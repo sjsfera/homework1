@@ -1,10 +1,32 @@
 * {margin: 2em; font-family: Comic Sans MS; text-decoration: none;}
 
-
-
-
-.comon a {
+.add {
+    display: flex;
+    margin: 0;
+}
+.block-page {
+    margin: 0;
+}
+.block-page_HW {
+    margin: 0;
+    width: 150px;
+    padding-top: 30px;
+}
+.block-git {
+    margin: 0;
+}
+.block-git_HW {
+    margin: 0;
+    width: 150px;
+    padding-top: 30px;
+}
+a {
     color: green;
+    width: 100px;
+    margin: 0;
+}
+.comon {
+    margin: 0;
 }
 p img {
     position: relative;
