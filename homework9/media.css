@@ -201,19 +201,14 @@
     .blog-request_title {
         margin: 0;
         padding-top: 50px;
-    }
-    .slider-list_item {
-        display: none;
-    }
+    }    
+    
     .blog-request_slider-list {
         margin: 0;
-    }    
-    .slider-list_item:nth-child(4n) {
-        display: flex;
-        width: 310px;
-        margin: 39px auto 33px auto;
+    } 
+    .slider-list_item:nth-child(n+1) {
+        display: none;
     }
-    
     
     #btn_icon {
         display: none;

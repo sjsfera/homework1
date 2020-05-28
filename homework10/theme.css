@@ -1,0 +1,22 @@
+input[type="search"]{    
+    background-color: transparent;
+    background-image: url('img/search.png');
+    background-size: 15px;
+    background-position: left 35% center;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 25px;
+    border-radius: 5px;
+    outline: none;
+    color: #bebebe;
+    text-align: center;
+    
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #8F8F8F;
+}
+
+input[type="search"]::placeholder{
+    color: #8F8F8F;
+}
