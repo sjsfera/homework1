@@ -71,6 +71,7 @@
     height: 29px;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0;
 }
 .block-personal-link {
