@@ -2,19 +2,24 @@
 .header {
     min-height: 50px;
 }
+.pointer-links {
+    cursor: pointer;
+}
+.social-links + .social-links {
+      margin-left: 10px;
+}
 .block-name {
     font-family: 'HelveticaNeueCyr';
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
-    text-align: center;
+    font-size: 1.625rem;
     color: #262626;
 }
 .block-status {
     font-family: 'HelveticaNeueCyr';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1em;
     align-items: center;
     color: #262626;
 }
@@ -106,11 +111,7 @@
     display: flex;
     justify-content: center;
 }
-.gallery-header {
-    height: 53px;
-    display: flex;
-    align-items: center;
-}
+
 .block-foto {
     margin-bottom: 25px;
 }
@@ -118,6 +119,4 @@
     display: flex;
     flex-direction: row;
 }
-.social-links {
-    cursor: pointer;
-}
+

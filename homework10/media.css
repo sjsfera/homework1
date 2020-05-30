@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .form-control {
+        display: none;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 991px) {
+    .btn-follow {
+        display: none;
+    }
+    .point-list_item {
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .block-status_data {
+        display: none;
+    }
+    .block-personal-link {
+        display: none;
+    }
+    .block-status_personal {
+        display: none;
+    }
+}

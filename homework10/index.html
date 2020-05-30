@@ -8,28 +8,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <link rel="stylesheet" href="theme.css" />
 
     <link rel="stylesheet" href="fonts/stylesheet.css" />
 
-    <title>Hello, world!</title>
+    <title>Instagram</title>
   </head>
   <body>
     <div class="add">
         <div class="container border-bottom ">
             <div class="row d-flex justify-content-between align-items-center header">
-                <div class="col-2">
+                <div class="col-md-4">
                     <img src="img/insta.svg" alt="insta icon">
                 </div>                
-                <div class="col-3">
+                <div class="col-md-3 d-flex justify-content-start">
                     <input type="search" class="form-control" id="formGroupExampleInput" placeholder="Search">
                 </div>
-                <div class="col-3 d-flex justify-content-between social-links">
-                    <img src="img/home.svg" alt="home icon">
-                    <img src="img/telega.svg" alt="telegram icon">
-                    <img src="img/comp.svg" alt="comp icon">
-                    <img src="img/hard.svg" alt="hard icon">
-                    <img src="img/Ellipse.svg" alt="elipse icon">
+                <div class="col-md-4 d-flex justify-content-end pointer-links">
+                    <img src="img/home.svg" alt="home icon" class="social-links">
+                    <img src="img/telega.svg" alt="telegram icon" class="social-links">
+                    <img src="img/comp.svg" alt="comp icon" class="social-links">
+                    <img src="img/hard.svg" alt="hard icon" class="social-links">
+                    <img src="img/Ellipse.svg" alt="elipse icon" class="social-links">
                 </div>
             </div>
         </div>
@@ -39,20 +40,20 @@
                 <div class="col-7 personal-status">
 
                     <div class="row my-3">
-                        <div class="col-5 d-flex justify-content-between align-items-center p-0">
-                            <span class="block-name">name</span>
+                        <div class="col-4 col-md-5 d-flex justify-content-between align-items-center p-0">
+                            <span class="block-name text-responsive">name</span>
                             <button class="btn btn-primary btn-follow">Follow</button>
                             <div class="btn-group" role="group">
                                 <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle btn-follow_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <div class="dropdown-menu btn-list" aria-labelledby="btnGroupDrop1">
                                     <a class="dropdown-item" href="#">Follow to other page</a>
                                     <a class="dropdown-item" href="#">Send massage</a>
                                 </div>
                             </div>
                             <div class="point-list">
-                                <img src="img/point.svg" alt="point">
-                                <img src="img/point.svg" alt="point">
-                                <img src="img/point.svg" alt="point">
+                                <img src="img/point.svg" alt="point" class="point-list_item">
+                                <img src="img/point.svg" alt="point" class="point-list_item">
+                                <img src="img/point.svg" alt="point" class="point-list_item">
                             </div>
                         </div>
                     </div>
@@ -60,7 +61,7 @@
                     
 
                     <div class="row">
-                        <div class="col-7 my-3 p-0 d-flex justify-content-between">
+                        <div class="col-12 col-md-7 my-3 p-0 d-flex justify-content-between">
                             <span class="block-status">79 posts</span>
                             <span class="block-status">379 followers</span>
                             <span class="block-status">179 following</span>
@@ -80,55 +81,55 @@
             </div>
         </div>
         <div class="container border-bottom">
-            <div class="row col-6 d-flex justify-content-around my-5 ml-5">
-                <div class="col-sm-4 col-4 block-name-group_item">
-                        <img src="img/Ellipse-smal.svg" class="top-img-fluid rounded-circle img-thumbnail" alt="...">                        
-                        <div class="mt-3 block-name-group">Name</div>                        
+            <div class="row col-12 col-md-6 d-flex justify-content-around my-5">
+                <div class="col-4 col-md-4 block-name-group_item">
+                        <img src="img/Ellipse-smal.svg" class="img rounded-circle img-thumbnail" alt="...">                        
+                        <div class="mt-3 block-name-group">Name1</div>                        
                 </div>
-                <div class="col-sm-4 col-4 block-name-group_item">
-                        <img src="img/Ellipse-smal.svg" class="img-fluid rounded-circle img-thumbnail" alt="...">                        
-                        <div class="mt-3 block-name-group">Name</div>
+                <div class="col-4 col-md-4 block-name-group_item">
+                        <img src="img/Ellipse-smal.svg" class="img rounded-circle img-thumbnail" alt="...">                        
+                        <div class="mt-3 block-name-group">Name2</div>
                 </div>
-                <div class="col-sm-4 col-4 block-name-group_item">
-                        <img src="img/Ellipse-smal.svg" class="img-fluid rounded-circle img-thumbnail" alt="...">                        
-                        <div class="mt-3 block-name-group">Name</div>
+                <div class="col-4 col-md-4 block-name-group_item">
+                        <img src="img/Ellipse-smal.svg" class="img rounded-circle img-thumbnail" alt="...">                        
+                        <div class="mt-3 block-name-group">Name3</div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-4 d-flex justify-content-around gallery-header">
-                    <div class="block-gallery">
+            <div class="row d-flex align-items-center" style="height: 53px;">
+                
+                    <div class="col-6 d-flex align-items-center justify-content-end">
                         <img src="img/post_icon.jpg" alt="post icon">
                         <span class="gallery-text">POSTS</span>
                     </div>
-                    <div class="block-gallery">
+                    <div class="col-6 d-flex align-items-center justify-content-start">
                         <img src="img/teg_icon.svg" alt="tagged icon">
                         <span class="gallery-text">TAGGED</span>
                     </div>
-                </div>
+                
             </div>
         </div>
         <div class="container">
             <div class="row d-flex flex-wrap">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">           
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">           
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">           
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
-                <img src="img/square.svg" alt="" class="img col-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">           
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">           
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">           
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">           
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">          
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">           
+                <img src="img/square.svg" alt="" class="img col-4 col-sm-4 block-foto">
                
             </div>
         </div>

@@ -2,7 +2,7 @@ input[type="search"]{
     background-color: transparent;
     background-image: url('img/search.png');
     background-size: 15px;
-    background-position: left 35% center;
+    background-position: left 25% center;
     background-repeat: no-repeat;
     padding: 5px 5px 5px 25px;
     border-radius: 5px;
@@ -19,4 +19,9 @@ input[type="search"]{
 
 input[type="search"]::placeholder{
     color: #8F8F8F;
+}
+
+.dropdown-item {
+    widows: 50px;
+    height: auto;
 }
