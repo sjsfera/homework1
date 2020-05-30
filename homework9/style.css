@@ -5,19 +5,18 @@ html, body {
     /*min-width: 100hw;*/
     /*min-height: 100vh;*/
     min-height: 4028px;
-    overflow-x: hidden;
 }
 
 
 /* Header*/
 .block-header {
     min-height: 665px;
-    display: flex;
+    min-width: 100%;
     background: url(img/bg-phone.png);
     background-position: right;
     background-repeat: no-repeat;
 }
-/* Header part 1*/
+/* Header*/
 
 .block-header-text {
     width: 50%;
@@ -46,7 +45,7 @@ html, body {
     letter-spacing: 0.03em;
     color: #333333;
     margin: 0;
-    padding-top: 133px;
+    padding-top: 163px;
 }
 .block-header-text_context {
     width: 63%;
@@ -65,10 +64,7 @@ html, body {
     justify-content: space-between;
     cursor: pointer;
 }
-/* Header part 2 */
-.block-header-content {
-    width: 50%;
-}
+
 
 /* Blog Does */
 .block-blog-do {
@@ -285,6 +281,9 @@ main {
 }
 #btn-ident_icon {
     cursor: pointer;
+}
+.slider-list_items {
+    display: none;
 }
 /* Block support */
 .block-support {

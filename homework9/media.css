@@ -222,6 +222,11 @@
         margin-top: 0;
         
     }
+    .slider-list_items {
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
 }
 /* Blog support*/
 @media (max-width: 360px) {

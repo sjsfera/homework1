@@ -216,6 +216,9 @@
         margin-top: 0;
         
     }
+    .slider-list_items {
+        display: none;
+    }
 }
 /* Blog support*/
 @media (max-width: 720px) {
