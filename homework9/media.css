@@ -1,4 +1,9 @@
 /* Header mobile view*/
+@media (max-width: 360px) {
+    body {
+        min-width: 360px;
+    }
+}
 
 @media (max-width: 360px) {
     .block-header {
@@ -226,6 +231,20 @@
         display: flex;
         justify-content: center;
         margin-top: 39px;
+        margin-bottom: 39px;
+    }
+    
+    .slider-list_button {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        position: relative;
+        top: -30%;
+    }
+    #btn_icon:first-child {
+        display: none;
     }
 }
 /* Blog support*/

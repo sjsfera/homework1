@@ -103,6 +103,25 @@ html, body {
     z-index: 1;
   
 }
+@media (max-width: 889px) {
+    .analis {        
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 95%;
+        left: 7%;
+        z-index: 2;
+        
+    }
+    .match {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 110%;
+        left: 15%;
+        z-index: 1;
+}
+}
 
 /* Blog Does part 2*/
 .block-blog-do_cover {
@@ -284,6 +303,17 @@ main {
 }
 .slider-list_items {
     display: none;
+}
+@media (max-width: 1300px) {
+    .slider-list_item_3 {
+        display: none;
+    }
+    
+}
+@media (max-width: 998px) {
+    .slider-list_item_2 {
+        display: none;
+    }
 }
 /* Block support */
 .block-support {
