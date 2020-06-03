@@ -1,0 +1,40 @@
+    /*Header*/
+    .header-blog {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        .header-menu-list {
+            width: 20%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;              
+        }
+    }
+    .header-menu {
+            font-family: $text;
+            @extend .list-menu;
+    } 
+    
+    .header-btn {
+        background: #111B47;
+        border-radius: 2px;
+        font-family: $text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    
+        width: 160px;
+        height: 26px;
+        padding: 0;
+    
+        border: none;
+    }
+    @media (max-width: 768px) {
+        .header-menu-list {
+            width: 30%;
+        }
+    }

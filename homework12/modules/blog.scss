@@ -1,0 +1,33 @@
+/* Section 3/4/5 */
+
+.blog-content {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+}
+.blog-title { 
+    font-family: $text;
+    @extend .text-size ;
+    color: $color;
+}
+.blog-text {
+    font-family: $text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6F7CB2;
+    margin-top: 16px;
+}
+.blog-content-img {
+    display: flex;
+    justify-content: center;
+}
+.blog-content_list {
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+    .blog-content {
+        min-width: 576px;
+    }   
+}

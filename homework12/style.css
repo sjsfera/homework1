@@ -1,3 +1,16 @@
+.list-menu, .footer-menu, .header-menu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #929ECC;
+}
+
+.text-size, .block-price_title, .blog-title, .main-blog_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+}
+
 /*Header*/
 .header-blog {
   display: flex;
@@ -5,13 +18,16 @@
   align-items: center;
   padding: 0;
 }
-
-.header-menu-list {
+.header-blog .header-menu-list {
   width: 20%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.header-menu {
+  font-family: "Roboto";
 }
 
 .header-btn {
@@ -136,9 +152,6 @@
 
 .main-blog_title {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
   color: #091133;
   display: flex;
   align-items: center;
@@ -200,9 +213,6 @@
 
 .blog-title {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
   color: #091133;
 }
 
@@ -241,9 +251,6 @@
 
 .block-price_title {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
   text-align: center;
   color: #091133;
   margin-top: 207px;
@@ -359,10 +366,6 @@
 
 .footer-menu {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  color: #929ECC;
 }
 
 .footer-menu-list {

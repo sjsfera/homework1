@@ -1,0 +1,74 @@
+/*Section 6*/
+
+.bg-block-price {
+    min-height: 800px;
+    background: url(img/Rectangle.png);
+}
+.block-price {
+    width: 45%;
+}
+.block-price_title { 
+    font-family: $text;
+    @extend .text-size ;
+    text-align: center;
+    color: $color;
+    margin-top: 207px;
+}
+.block-price_text{
+    font-family: $text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #6F7CB2;
+    margin-top: 16px;
+}
+.block-price_text-price {
+    font-family: $text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #222F65;
+    margin-top: 35px;
+}
+.block-price_text-item1 {
+    font-family: $text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #37447E;
+}
+.block-price_text-item2 {
+    font-family: $text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #5D6970;
+    margin-top: 60px;
+}
+.block-price-btn {
+    background: #111B47;
+    border-radius: 2px;
+
+    font-family: $text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+
+    width: 189px;
+    height: 24px;
+    padding: 0;
+    margin-top: 9px;
+}
+
+@media (max-width: 576px) {
+    .bg-block-price {
+        min-width: 576px;
+    }   
+}
