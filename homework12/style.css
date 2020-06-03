@@ -273,6 +273,14 @@
 /* Footer */
 .footer-block_item1 {
   min-height: 139px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-block_item2 {
@@ -308,4 +316,34 @@
   height: 26px;
   padding: 0;
   border: none;
+}
+
+.footer-menu {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #929ECC;
+}
+
+.footer-menu-list {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-list {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .bg-footer {
+    min-width: 576px;
+  }
 }
