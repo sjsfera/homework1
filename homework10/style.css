@@ -5,9 +5,7 @@
 .pointer-links {
     cursor: pointer;
 }
-.social-links + .social-links {
-      margin-left: 10px;
-}
+
 .block-name {
     font-family: 'HelveticaNeueCyr';
     font-style: normal;
