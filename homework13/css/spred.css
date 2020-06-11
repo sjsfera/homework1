@@ -1,0 +1,6 @@
+.car {
+    width: 55px; 
+    height: 34px;
+    background: url('img/css_sprites.png') -202px -10px;
+    background-size: 267px 77px;
+}
