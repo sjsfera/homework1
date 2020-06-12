@@ -227,7 +227,9 @@
 <section class="video">
     <div class="wrapper">
         <h2 class="h2">как работает <span class="yellow">видеопарктроник?</span></h2>
-        <div id="video"></div>
+        <div id="video">
+            <iframe width="780" height="380" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </section>
 <section class="how">
@@ -427,15 +429,9 @@
 
     </div>
 </footer>
-<script>
-    window.onload = function () {
-      document.body.classList.add('loaded_hiding');
-      window.setTimeout(function () {
-        document.body.classList.add('loaded');
-        document.body.classList.remove('loaded_hiding');
-      }, 500);
-    }
-  </script>
+<script src="js/main.js"></script>
+
+<!--
 <script>
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
@@ -478,7 +474,7 @@
         player.stopVideo();
     }
 </script>
-
+-->
      <!-- jQuery <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
  <script src="js/jquery.min.js"></script>
 
