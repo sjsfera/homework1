@@ -83,6 +83,36 @@
         .loaded .preloader {
           display: none;
         }
+
+        .youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+ 
+.youtube .play {
+    background: url('Путь к изображению кнопки') no-repeat; /*ВАЖНО: здесь укажите адрес до изображения кнопки play*/
+    background-position: 0 -50px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    position: absolute;
+    height: 50px;
+    width: 69px;
+    transition: none;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+ 
+.youtube:hover .play {
+    background-position: 0 0;
+}
       </style>
     
 </head>
@@ -229,7 +259,8 @@
     <div class="wrapper">
         <h2 class="h2">как работает <span class="yellow">видеопарктроник?</span></h2>
         <div id="video">
-            <iframe width="780" height="380" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="youtube" id="M7lc1UVf-VE" style="width: 100%; height: 100%;"></div>
+            <!--<iframe width="780" height="380" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
         </div>
     </div>
 </section>
@@ -437,6 +468,8 @@
 
      <!-- jQuery <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
  <script  defer src="js/jquery.min.js"></script>
+
+ <script  defer src="js/youtube.js"></script>
 
  <!-- Latest compiled and minified JS <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>--> 
  <script  defer src="js/bootstrap.min.js"></script> 
