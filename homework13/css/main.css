@@ -1,7 +1,7 @@
 .bg-reason1 {
     width: 200px; 
     height: 70px;
-    background: url('img/css_sprites.png') -202px -10px;;
+    background-image: url("../img/css_sprites.png") -202px -10px;    
     background-position: 200px 10px;
 }
 
@@ -178,7 +178,7 @@ button {
 .main-screen {
     min-height: 1px;
     height: 700px;
-    background-image: url("../img/main-screen-bg.jpg");
+    background-image: url("../img/main-screen-bg.webp");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
