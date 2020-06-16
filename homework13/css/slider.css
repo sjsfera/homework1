@@ -1,4 +1,7 @@
 /* стили основного контейнера слайдера */
+.container {
+  max-width: 90%;
+}
 .slider {
     position: relative;
     overflow: hidden;
