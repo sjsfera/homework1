@@ -6,56 +6,56 @@ const item3 = 90.2345;
 
 
 
-let max = Math.max(item1, item2, item3);
+const max = Math.max(item1, item2, item3);
 
 
 
-let min = Math.min(item1, item2, item3);
+const min = Math.min(item1, item2, item3);
 
 
 
-let total = item1 + item2 + item3;
+const total = item1 + item2 + item3;
 
 
 
-let item1Min = Math.floor(item1);
+const item1Min = Math.floor(item1);
 
-let item2Min = Math.floor(item2);
+const item2Min = Math.floor(item2);
 
-let item3Min = Math.floor(item3);
+const item3Min = Math.floor(item3);
 
-let totalPrice = item1Min + item2Min + item3Min;
+const totalPrice = item1Min + item2Min + item3Min;
              
 
 
-let price = (item1 + item2 + item3) / 100;
+const price = (item1 + item2 + item3) / 100;
 
-let maxPrice = (Math.ceil(price)) * 100;
-
-
-
-let totalValue = Math.floor(item1 + item2 + item3);
+const maxPrice = (Math.ceil(price)) * 100;
 
 
 
-let all = item1 + item2 + item3;
+const totalValue = Math.floor(item1 + item2 + item3);
+
+
+
+const all = item1 + item2 + item3;
 const firstMoney = 500;
 
 
 
-let summery = (Math.floor(((item1 + item2 + item3) / 3) * 10)) / 10;
+const summery = (Math.floor(((item1 + item2 + item3) / 3) * 100)) / 100;
 
 
 
 const apple = 260;
 
-let discount = Math.random() * 10;
+const discount = Math.random() * 10;
 
-let discPrice = (Math.floor((apple - discount) * 100)) / 100;
+const discPrice = (Math.floor((apple - discount) * 100)) / 100;
 
 const origPrice = apple / 2;
 
-let tr = Math.floor(discPrice - origPrice);
+const clearTotal = Math.floor(discPrice - origPrice);
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -108,5 +108,5 @@ document.getElementById('task4').innerHTML = totalPrice;
         
 
         document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('task9').innerHTML = tr;
+            document.getElementById('task9').innerHTML = clearTotal;
             }, false); 
