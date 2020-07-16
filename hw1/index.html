@@ -8,76 +8,76 @@
     </head>
     <body>
         <div>Пример 1:</div>
-        <script class="1">
-            let a = 15.678;
+        <script>
+            const a = 15.678;
 
-            let b = 123.965;
+            const b = 123.965;
 
-            let c = 90.2345;
+            const c = 90.2345;
 
             let max = Math.max(a, b, c);
 
             document.writeln (max);
         </script>
         <div>Пример 2:</div>
-        <script class="2">            
+        <script>            
 
             let min = Math.min(a, b, c);
 
             document.writeln (min);
         </script>
         <div>Пример 3:</div>
-        <script class="3">
+        <script>
             let total = a + b + c;
             document.writeln(total);
         </script> 
         <div>Пример 4:</div>
-        <script class="4">
+        <script>
             let am = Math.floor(a);
 
             let bm = Math.floor(b);
 
             let cm = Math.floor(c);
 
-            let totalPrice = (am + bm + cm);
+            let totalPrice = am + bm + cm;
 
             document.writeln(totalPrice);
         </script>
         <div>Пример 5:</div>
-        <script class="5">
-            let price = ((a + b + c) / 100);
+        <script>
+            let price = (a + b + c) / 100;
 
-            let x = ((Math.ceil(price)) * 100);
+            let x = (Math.ceil(price)) * 100;
 
             document.writeln(x);
         </script>
         <div>Пример 6:</div>
-        <script class="6">
-            let numBool = Math.floor(a + b + c);
+        <script>
+            let totalValue = Math.floor(a + b + c);
 
-            document.writeln(numBool);
+            document.writeln(totalValue % 2 === 0);
         </script>
         <div>Пример 7:</div>
-        <script class="7">
-            let middle = (a + b + c);
+        <script>
+            let middle = a + b + c;
 
             document.writeln (500 - middle);
         </script>
         <div>Пример 8:</div>
-        <script class="8">
+        <script>
             let summery = (Math.floor(((a + b + c) / 3) * 10)) / 10;
 
             document.writeln (summery);
         </script>
         <div>Пример 9:</div>
-        <script class="9">
-            let apple = 260;
+        <script>
+            const apple = 260;
 
             let discount = Math.random() * 10;
 
             let discPrice = (Math.floor((apple - discount) * 100)) / 100;
 
-            let origPrice = apple / 2;
+            const origPrice = apple / 2;
 
             let tr = Math.floor(discPrice - origPrice);
 
