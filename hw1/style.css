@@ -1,23 +1,8 @@
 * {background: rgba(248, 220, 60, 0.582); margin: 0em; font-family: Comic Sans MS;}
 
-.git_comand {    
-    background: red;
-    
-    width: 60em;
-    text-align: left;
-    margin-left: 5em;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    font-size: 1.1em;
+.spaceAround {
+    margin: 20px;
 }
-ul {
-    list-style: none;
-    padding: 0.2em;
-}
-li {
-    padding: 1em;
-}
-
-.add {
-    color: rgba(83, 12, 196, 0.904);
+.topText {
+    font-weight: bold;
 }
