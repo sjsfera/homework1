@@ -7,82 +7,53 @@
         <title>Home Work - 1</title>
     </head>
     <body>
-        <div class="spaceAround topText">Пример 1:</div>
-        <span class="spaceAround"><script>
-            const a = 15.678;
 
-            const b = 123.965;
-
-            const c = 90.2345;
-
-            let max = Math.max(a, b, c);
-
-            document.writeln (max);
-        </script></span>
-        <div class="spaceAround topText">Пример 2:</div>
-        <span class="spaceAround"><script>            
-
-            let min = Math.min(a, b, c);
-
-            document.writeln (min);
-        </script></span>
-        <div class="spaceAround topText">Пример 3:</div>
-        <span class="spaceAround"><script>
-            let total = a + b + c;
-            document.writeln(total);
-        </script></span> 
-        <div class="spaceAround topText">Пример 4:</div>
-        <span class="spaceAround"><script>
-            let am = Math.floor(a);
-
-            let bm = Math.floor(b);
-
-            let cm = Math.floor(c);
-
-            let totalPrice = am + bm + cm;
-
-            document.writeln(totalPrice);
-        </script></span>
-        <div class="spaceAround topText">Пример 5:</div>
-        <span class="spaceAround"><script>
-            let price = (a + b + c) / 100;
-
-            let x = (Math.ceil(price)) * 100;
-
-            document.writeln(x);
-        </script></span>
-        <div class="spaceAround topText">Пример 6:</div>
-        <span class="spaceAround"><script>
-            let totalValue = Math.floor(a + b + c);
-
-            document.writeln(totalValue % 2 === 0);
-        </script></span>
-        <div class="spaceAround topText">Пример 7:</div>
-        <span class="spaceAround"><script>
-            let middle = a + b + c;
-
-            document.writeln (500 - middle);
-        </script></span>
-        <div class="spaceAround topText">Пример 8:</div>
-        <span class="spaceAround"><script>
-            let summery = (Math.floor(((a + b + c) / 3) * 10)) / 10;
-
-            document.writeln (summery);
-        </script></span>
-        <div class="spaceAround topText">Пример 9:</div>
-        <span class="spaceAround"><script>
-            const apple = 260;
-
-            let discount = Math.random() * 10;
-
-            let discPrice = (Math.floor((apple - discount) * 100)) / 100;
-
-            const origPrice = apple / 2;
-
-            let tr = Math.floor(discPrice - origPrice);
-
-            document.writeln (tr);
-        </script></span>
+        <div class="spaceAround topText"><h2>Задача 1:</h2> Використовуючи вбудований об'єкт Math – виведіть максимальне 
+            число</div>             
+        <span class="spaceAround">Результат:-><span id="task1"></span></span>
+        <script src="task1.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 2:</h2> Використовуючи вбудований об'єкт Math – виведіть мінімальне 
+            число</div>
+            <span class="spaceAround">Результат:-><span id="task2"></span></span>
+            <script src="task2.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 3:</h2> Складіть вартість всіх товарів, помістіть її в змінну та 
+            виведіть цю суму</div>
+            <span class="spaceAround">Результат:-><span id="task3"></span></span>
+            <script src="task3.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 4:</h2> Відкиньте копійки у всіх товарів, потім – складіть цілу 
+            частину вартості кожного товару між собою. Округлення використовувати в МЕНЬШУ сторону</div>
+            <span class="spaceAround">Результат:-><span id="task4"></span></span>
+            <script src="task4.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 5:</h2> Виведіть суму товарів округлену до сотень. (Наприклад якщо 
+            вийшло 260, то виведіть 300)</div>
+            <span class="spaceAround">Результат:-><span id="task5"></span></span>
+            <script src="task5.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 6:</h2> Виведіть булеве значення: чи є сума всіх товарів (округлена 
+            в меншу сторону) парним чи непарним числом?</div>
+            <span class="spaceAround">Результат:-><span id="task6"></span></span>
+            <script src="task6.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 7:</h2> Виведіть суму решти, при оплаті всіх товарів (без округлення), 
+            якщо клієнт платить 500 грн</div>
+            <span class="spaceAround">Результат:-><span id="task7"></span></span>
+            <script src="task7.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 8:</h2> Виведіть середнє значення цін, округлене до другого знаку 
+            після коми</div>
+            <span class="spaceAround">Результат:-><span id="task8"></span></span>
+            <script src="task8.js"></script>
+<hr>
+        <div class="spaceAround topText"><h2>Задача 9:</h2> (Більш складне) Створіть змінну, в якої збережіть випадкову 
+            знижку (використовуйте функцію Math.random). Зробіть клієнту випадкову знижку та виведіть суму до 
+            оплати округлену до 2 знаків після коми. Виведіть чистий прибуток, якщо клієнт заплатив зі знижкою 
+            та собівартість товарів рівно в два рази нижче їх ціни?</div>
+            <span class="spaceAround">Результат:-><span id="task9"></span></span>
+            <script src="task9.js"></script>
 
     </body>
 </html>
