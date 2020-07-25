@@ -28,6 +28,14 @@ while (c === null) {
 
 let sum = confirm('Пропускаємо не парне число?'); 
 for (let i = n; i <= m; i=i+1) {
+  if (sum && (i % 2)) {
+    sum += i;
+  }
+  
+}
+/*
+let sum = confirm('Пропускаємо не парне число?'); 
+for (let i = n; i <= m; i=i+1) {
   if (i % 2) {
     continue;
   }
@@ -35,8 +43,7 @@ for (let i = n; i <= m; i=i+1) {
     sum += i;
   }
 }
-
-
+*/
 
 
 
