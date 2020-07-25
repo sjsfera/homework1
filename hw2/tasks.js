@@ -25,12 +25,14 @@ while (c === null) {
   }     
 }
 
-
-let sum = confirm('Пропускаємо не парне число?'); 
+let res = 0;
+let sum = confirm('Пропускаємо парне число?'); 
 for (let i = n; i <= m; i=i+1) {
-  if (sum && (i % 2)) {
-    sum += i;
+  if (sum && (i % 2 === 1)) {
+    continue;
   }
+  else     
+    res += i; 
   
 }
 /*
@@ -56,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }); 
 
   document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('task3').innerHTML =  sum;
+    document.getElementById('task3').innerHTML =  res;
     }); 
 
 
