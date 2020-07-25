@@ -26,9 +26,9 @@ while (c === null) {
 }
 
 
-let sum = confirm('Пропускаємо не парне число?'); 
+let sum = confirm('Parne chislo?'); 
 for (let i = n; i <= m; i=i+1) {
-  if (i % 2) {
+  if (i % 2){
     continue;
   }
   else {
