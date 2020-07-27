@@ -2,7 +2,7 @@
 let b = null;
 while (b === null) {
   n = +prompt('Enter the number n?');
-  if (isNaN(n) === false)
+  if (Number.isInteger(n) && isNaN(n) === false)
   
   {
     b = Number.isInteger(n);    
@@ -15,7 +15,7 @@ while (b === null) {
 let c = null;
 while (c === null) {
   m = +prompt('Enter the number m?');
-  if (isNaN(m) === false)
+  if (Number.isInteger(m) && isNaN(m) === false)
  
  {
     c = Number.isInteger(m);    
